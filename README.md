@@ -4,6 +4,10 @@
 
 install:
 
-chmod rex.sh
+git clone https://github.com/cr4ck32/rex.git
+
+cd rex
+
+chmod +x rex.sh
 
 sh rex.sh
